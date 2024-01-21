@@ -1,0 +1,414 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main_images {
+  width: 100%;
+  height: 1477px;
+  position: relative;
+}
+
+.mountain_clouds_block {
+  width: 100%;
+  height: 500px;
+}
+
+.clouds {
+  position: absolute;
+  width: 100%;
+  height: 690px;
+}
+
+.mountain_clouds {
+  width: 100%;
+  position: absolute;
+  height: 773px;
+}
+
+.first_mountain_image {
+  width: 100%;
+  height: 862px;
+}
+
+.second_mountain_image {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 550px;
+}
+
+.main_block {
+  width: 100%;
+  height: 730px;
+  position: absolute;
+  top: 0;
+}
+
+header {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 53%;
+  margin-left: 80px;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+  list-style: none;
+}
+.header_menu ul a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.header_account {
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+}
+.header_account img {
+  width: 24px;
+  height: 24px;
+}
+.header_account a {
+  font-size: 17px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.main_center_block {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_center_block_follow {
+  writing-mode: vertical-rl;
+  margin-left: 80px;
+}
+
+.main_center_block_follow span {
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
+.main_center_block_follow img {
+  margin-top: 18px;
+}
+
+.main_center_block_name {
+  display: flex;
+  align-items: center;
+}
+
+.main_center_block_text {
+  width: 915px;
+  height: 333px;
+  position: relative;
+}
+
+.rectangle {
+  width: 72px;
+  height: 2px;
+  background: #FBD784;
+}
+
+.hiking_guide p {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  color: #FBD784;
+  margin-left: 25px;
+  letter-spacing: 6px;
+}
+
+.main_center_block_title {
+  width: 915px;
+  position: absolute;
+  top: 0;
+}
+.main_center_block_title h1 {
+  font-size: 88px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.main_center_block_scroll {
+  position: absolute;
+  bottom: 24px;
+  display: flex;
+  align-items: center;
+}
+.main_center_block_scroll span {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+.main_center_block_scroll img {
+  margin-left: 25px;
+}
+
+.main_center_block_start {
+  width: 77px;
+  height: 240px;
+  display: flex;
+  position: relative;
+  right: 80px;
+}
+
+.main_center_block_start_numbers {
+  width: 50%;
+}
+
+.main_center_block_start_sliders {
+  width: 50%;
+}
+
+.start_text p {
+  font-size: 18px;
+  color: #fff;
+  float: right;
+}
+
+.number {
+  float: right;
+}
+.number p {
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.slider_background img {
+  width: 3px;
+  height: 180px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.slider_indicator img {
+  width: 3px;
+  height: 60px;
+  position: absolute;
+  right: 0;
+}
+
+.mountain_background img {
+  width: 100%;
+  position: absolute;
+  bottom: -260px;
+}
+
+main {
+  width: 100%;
+  height: 3040px;
+  background: #0B1D26;
+  position: absolute;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  height: 953px;
+}
+
+.second_main_block {
+  width: 1462px;
+  height: 720px;
+  position: relative;
+  display: flex;
+  bottom: 140px;
+}
+
+.main_first_block {
+  width: 63.4%;
+  height: 720px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_second_block {
+  height: 720px;
+}
+
+.main_first_block_content {
+  width: 632px;
+  height: 439px;
+  position: relative;
+}
+
+.get_started {
+  display: flex;
+  align-items: center;
+}
+.get_started p {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  color: #FBD784;
+  margin-left: 25px;
+  letter-spacing: 6px;
+}
+
+.get_started_rectangle {
+  width: 72px;
+  height: 2px;
+  background: #FBD784;
+}
+
+.main_first_block_title {
+  position: relative;
+  bottom: 40px;
+}
+.main_first_block_title h1 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 70px;
+}
+
+.main_first_block_description {
+  position: relative;
+  bottom: 55px;
+}
+.main_first_block_description p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.main_first_block_read {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: -15px;
+}
+.main_first_block_read p {
+  font-size: 18px;
+  color: #FBD784;
+}
+
+.main_first_block_read img {
+  margin-left: 20px;
+}
+
+.main_first_number {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+}
+.main_first_number span {
+  font-size: 240px;
+  font-weight: 700;
+  opacity: 10%;
+  color: #fff;
+}
+
+.left {
+  left: 145px;
+}
+
+.end {
+  justify-content: end;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.footer_block {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  width: 1425px;
+  height: 280px;
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+}
+
+.footer_logo_text p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  position: relative;
+  top: 7px;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+}
+.copyright p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  opacity: 50%;
+}
+
+.first_menu {
+  width: 26%;
+}
+
+.first_menu_block span {
+  margin-left: 39px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #FBD784;
+}
+.first_menu_block ul li {
+  list-style: none;
+  margin-top: 15px;
+}
+.first_menu_block ul a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.second_menu_block span {
+  margin-left: 39px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #FBD784;
+}
+.second_menu_block ul li {
+  list-style: none;
+  margin-top: 15px;
+}
+.second_menu_block ul a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+/*# sourceMappingURL=style.css.map */

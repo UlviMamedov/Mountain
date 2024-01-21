@@ -1,0 +1,247 @@
+$full-width: 100%;
+$white: #fff;
+$lightYellow: #FBD784;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main_images {
+  width: 100%;
+  height: 1477px;
+  position: relative;
+}
+
+.mountain_clouds_block {
+  width: $full-width;
+  height: 500px;
+}
+
+.clouds {
+  position: absolute;
+  width: $full-width;
+  height: 690px;
+}
+
+.mountain_clouds {
+  width: $full-width;
+  position: absolute;
+  height: 773px;
+}
+
+.first_mountain_image {
+  width: $full-width;
+  height: 862px;
+}
+
+.second_mountain_image {
+  width: $full-width;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 550px;
+}
+
+.main_block {
+  width: $full-width;
+  height: 730px;
+  position: absolute;
+  top: 0;
+}
+
+header {
+  width: $full-width;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 53%;
+  margin-left: 80px;
+}
+
+.header_menu {
+  ul {
+    li {
+      display: inline-block;
+      margin-left: 25px;
+      margin-right: 25px;
+      list-style: none;
+    }
+
+    a {
+      color: $white;
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+}
+
+.header_account {
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+
+  a {
+    font-size: 17px;
+    color: $white;
+    margin-left: 10px;
+  }
+}
+
+.main_center_block {
+  width: $full-width;
+  height: 500px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_center_block_follow {
+  writing-mode: vertical-rl;
+  margin-left: 80px;
+}
+
+.main_center_block_follow {
+  span {
+    font-weight: 700;
+    font-size: 18px;
+    color: $white;
+  }
+
+  img {
+    margin-top: 18px;
+  }
+}
+
+.main_center_block_name {
+  display: flex;
+  align-items: center;
+}
+
+.main_center_block_text {
+  width: 915px;
+  height: 333px;
+  position: relative;
+}
+
+.rectangle {
+  width: 72px;
+  height: 2px;
+  background: $lightYellow;
+}
+
+.hiking_guide {
+  p {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    color: $lightYellow;
+    margin-left: 25px;
+    letter-spacing: 6px;
+  }
+}
+
+.main_center_block_title {
+  width: 915px;
+  position: absolute;
+  top: 0;
+
+  h1 {
+    font-size: 88px;
+    font-weight: 600;
+    color: $white;
+  }
+}
+
+.main_center_block_scroll {
+  position: absolute;
+  bottom: 24px;
+  display: flex;
+  align-items: center;
+
+  span {
+    color: $white;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  img {
+    margin-left: 25px;
+  }
+}
+
+.main_center_block_start {
+  width: 77px;
+  height: 240px;
+  display: flex;
+  position: relative;
+  right: 80px;
+}
+
+.main_center_block_start_numbers {
+  width: 50%;
+}
+
+.main_center_block_start_sliders {
+  width: 50%;
+}
+
+.start_text {
+  p {
+    font-size: 18px;
+    color: $white;
+    float: right;
+  }
+}
+
+.number {
+  float: right;
+
+  p {
+    font-size: 18px;
+    color: $white;
+    padding-bottom: 10px;
+  }
+}
+
+.slider_background {
+  img {
+    width: 3px;
+    height: 180px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.slider_indicator {
+  img {
+    width: 3px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+  }
+}
+
+.mountain_background {
+  img {
+    width: $full-width;
+    position: absolute;
+    bottom: -260px;
+  }
+}
